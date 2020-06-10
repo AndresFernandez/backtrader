@@ -25,6 +25,8 @@ from __future__ import (absolute_import, division, print_function,
 # or prepend an "_" (underscore) to private classes/variables
 
 from .bbroker import BackBroker, BrokerBack
+from .babroker import BaBroker
+
 
 try:
     from .ibbroker import IBBroker
